@@ -28,8 +28,6 @@ export default class Weather {
 
 		const week = request.data.weather;
 
-		console.log(week);
-
 		return [
 			week.map(
 				(x: { avgtempC: number; mintempC: number; maxtempC: number }) => [
